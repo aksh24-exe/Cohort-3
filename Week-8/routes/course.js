@@ -1,5 +1,5 @@
 const { Router } = require("express");
-
+const { courseModel, purchaseModel } = require("../db")
 const courseRoutes = Router();
 
 courseRoutes.post("/purchases", (req, res) => {
